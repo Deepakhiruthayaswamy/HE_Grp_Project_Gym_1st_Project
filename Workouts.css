@@ -1,0 +1,313 @@
+body{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0px;
+    text-align: center;
+
+}
+.workouts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    background-color: #0a0c00;
+}
+.wh2{
+    color: white;
+}
+
+
+.secondSectionHeading{
+    margin: 8rem 5rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.sectionOne{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0rem 8rem 0rem 8rem;
+    gap: 2rem;
+}
+
+img{
+    width: 28.35rem;
+    height: 35rem;
+}
+.subhead{
+    margin: 1rem 0rem 1rem 0rem;
+    font-size: 2rem;
+}
+
+
+
+.lifeStyle{
+    position: relative;
+    margin-top: 15rem;
+ 
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8rem;
+    background-color: #0a0c00;
+
+}
+.content{
+    background-color: #0a0c00;
+    width: 40%;
+    margin-left: 8rem;
+    color: white;
+    margin-bottom: 5rem;
+}
+.heading{
+    font-size: 4rem;
+    text-align: left;
+}
+p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2;
+    text-align: left;
+}
+
+.image2{
+    position: absolute;
+    right: 0px;
+    top: -85px;
+    width: 48rem;
+    height: 45rem;
+}
+.image1{
+    position: absolute;
+    left: 0px;
+    bottom: -15px;
+    width: 10rem;
+    height: 15rem;
+}
+table{
+    border-spacing: 0;
+}
+table th{
+font-size: 4rem;
+
+}
+table td{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+table tr th:not(:last-child),
+table tr td:not(:last-child) {
+    border-right: 2px solid rgb(255, 255, 255);
+}
+
+table tr th:first-child,
+table tr td:first-child {
+    padding-right: 4rem;
+}
+
+table tr th:last-child,
+table tr td:last-child {
+    padding-left: 4rem;
+}
+
+
+
+
+.member{
+    display: flex;
+    flex-direction: row;
+    margin: 8rem;
+}
+.memberhead .heading{
+    margin-bottom: 0px;
+    
+}
+.para{
+    margin-top: 1.2rem;
+    line-height: 1.3;
+}
+.gymposter{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.image3{
+    width: 43rem;
+    height: 43rem;
+}
+.membercards{
+
+    padding: 4rem;
+    background-color: #f6f5f3;
+}
+.memberContainer{
+
+    background-color: #f6f5f3;
+}
+.image4{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
+.memberContent p{
+    text-align: center;
+}
+.memberContent p:nth-of-type(3){
+    font-weight: 900;
+    font-size: 2.3rem;
+    margin-bottom: 0px;
+}
+
+.memberContent p:nth-of-type(4){
+    font-weight: 100;
+    font-size: 1.6rem;
+    margin-top: 0px;
+    letter-spacing: 0.3rem;
+}
+
+.services{
+    background-color: #e3ff04;
+    padding: 2rem;
+}
+.servicescontainer{
+    margin: 0px;
+}
+.servicescontainer h2{
+    line-height: 1;
+
+}
+.banner{
+    padding: 0.3rem 0rem;
+    background-color: #e3ff04;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    gap:6rem;
+    
+}
+.banner h3{
+    font-size: 3rem;
+    animation: rightToLeft 10s infinite linear;
+}
+@keyframes rightToLeft {
+to{
+    transform:translateX(calc(-100% - 6rem));
+}
+    
+}
+
+.containerJoin{
+    display: flex;
+    flex-direction: row;
+    background-color: #0a0c00;
+    color: white;
+}
+.contentJoin{
+    padding: 8rem 15rem 8rem 8rem ;
+
+}
+.contentJoin h2{
+    margin: 0px;
+}
+.joinusbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+}
+button{
+    background-color:#e3ff04 ;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 10rem;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button:hover{
+    background-color: #f6f5f3;
+}
+
+
+
+
+/* media query  */
+@media screen and (max-width:1496px) {
+
+
+    .member{
+        display: flex;
+        flex-direction: row;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width:1131px) {
+    .image3{
+        width: 35rem;
+        height: 35rem;
+    }
+
+}
+@media screen and (max-width:1021px) {
+   /* lifestyle  */
+   .container{
+    display: flex;
+    flex-direction: column;
+   }
+   .image2{
+    position: static;
+    width: 100%;
+
+   }
+   .image1{
+    display: none;
+   }
+   .image-container{
+    margin: 1.22rem;
+   }
+   .content{
+    width: auto;
+    margin-left: 1.22rem;
+   }
+   .heading{
+    font-size: 3rem;
+   }
+   
+   /* member  */
+    .member{
+        flex-direction: column;
+    }
+    .gymposter{
+       margin: 0px;
+    }
+    .image3{
+        width: 100%;
+        height: 53rem;
+    }
+    .services{
+        margin-top: 3rem;
+    }
+    .num{
+        font-size: 3rem;
+    }
+    .desc{
+        font-size: 1.2rem;
+    }
+
+}
+@media screen and (max-width:718px) {
+    .heading{
+    font-size: 3rem;
+        
+    }
+
+}
