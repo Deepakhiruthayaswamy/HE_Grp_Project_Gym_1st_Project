@@ -464,3 +464,94 @@ h1 {
     font-weight: bold;
 }
 
+
+/* @media Query */
+
+@media (max-width: 1024px) {
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .carousel-caption {
+        font-size: 16px;
+    }
+
+    .hero-section .hero-content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+    .carousel-caption h5 {
+        font-size: 24px;
+    }
+
+    .gym-section .gym-content {
+        padding: 15px;
+    }
+
+    .contact-section .form-section {
+        padding: 20px;
+    }
+
+    .membership-section .card7 .card-body {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 18px;
+    }
+
+    .hero-section .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .gym-section .gym-content h2 {
+        font-size: 20px;
+    }
+
+    .contact-section .form-section h2 {
+        font-size: 24px;
+    }
+
+    .membership-section .card7 .card-body {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-nav {
+        margin-top: 5px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 16px;
+    }
+
+    .hero-section .hero-content h1 {
+        font-size: 20px;
+    }
+
+    .gym-section .gym-content h2 {
+        font-size: 18px;
+    }
+
+    .contact-section .form-section h2 {
+        font-size: 20px;
+    }
+
+    .membership-section .card7 .card-body {
+        padding: 10px;
+    }
+}
