@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Our Team */
+.ourTeam {
+  background-color: black;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourTeam h1 {
+  color: #fff;
+}
+
+/* Team Member */
+.featured {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 55px;
+}
+.team-member-heading {
+  margin-bottom: 40px;
+}
+.image-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.zoom-effect {
+  height: 350px;
+  width: 350px;
+}
+
+.Member-Name {
+  font-weight: bold;
+  font-size: 27px;
+  margin-top: 10px;
+}
+
+.position {
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+/* Active zone */
+.active-zone-img {
+  height: 720px;
+  width: 850px;
+  position: relative;
+  top: -120px;
+}
+
+.active-zone {
+  background-color: #e7ebe8;
+  margin-top: 230px;
+  display: flex;
+  justify-content: start;
+  position: relative;
+}
+.active-zone-description {
+  margin-top: 150px;
+  margin-left: 60px;
+  margin-right: 20px;
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.active-zone-description h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.active-zone-description p {
+  font-size: 20px;
+}
+
+.spec-heading {
+  margin-top: 30px;
+}
+progress {
+  width: 100%;
+  height: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border-radius: 0px;
+}
+.progress-item {
+  border: 1px solid black;
+  font-weight: bold;
+}
+progress::-webkit-progress-bar {
+  background-color: #fff;
+}
+
+progress::-webkit-progress-value {
+  background-color: #ccff00;
+}
+
+/* Breakfast */
+.Breakfast-heading {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+
+.breakfast-img {
+  height: 330px;
+  width: 400px;
+}
+.brk-para {
+  margin-top: 20px;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  padding: 5px;
+}
+
+.date {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* FLEXIBILITY */
+.flexibility {
+  background-color: #ccff00;
+  height: 45px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  margin-top: 85px;
+}
+.flex-para {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Join Our Gym */
+.ourGym {
+  background-color: black;
+  height: 360px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.gym-content {
+  display: flex;
+  align-items: center;
+}
+
+.gym-text {
+  margin-left: 90px;
+}
+
+.gym-text p {
+  margin-top: 14px;
+  font-size: 18px;
+}
+
+.join-us {
+  margin-left: 310px;
+}
+
+.join-btn {
+  background-color: #ccff00;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 18px;
+}
