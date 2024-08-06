@@ -6,7 +6,7 @@ body {
 
 .contact-section {
     background-color: #000000;
-    padding: 50px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -21,19 +21,22 @@ body {
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 .contact-box {
-    background-color: #f4f4f4;
-    border-radius: 10px;
+    background-color: #e9e3e3;
+    border-radius: 0px;
     padding: 20px;
-    width: 300px;
+    width: 360px;
+    height: 300px;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(97, 93, 93, 0.1);
 }
 
 .contact-box .icon {
-    background-color: #d3ff38;
+    background-color: #d8ff00;
     border-radius: 50%;
     display: inline-block;
     padding: 10px;
@@ -41,7 +44,7 @@ body {
 }
 
 .contact-box .icon img {
-    width: 30px;
+    width: 60px;
 }
 
 .contact-box .details {
@@ -49,12 +52,12 @@ body {
 }
 
 .contact-box h3 {
-    font-size: 20px;
+    font-size: 35px;
     margin-bottom: 10px;
 }
 
 .contact-box p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
     margin: 0;
 }
@@ -70,7 +73,7 @@ body {
 
 .contact-form {
     flex: 1;
-    background-color: #d3ff38;
+    background-color: #d8ff00;
     padding: 50px;
     display: flex;
     flex-direction: column;
