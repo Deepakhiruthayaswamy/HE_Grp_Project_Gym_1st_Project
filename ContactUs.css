@@ -178,7 +178,10 @@ footer {
     color: #333;
 }
 
-.footer-middle h3,
+.footer-middle h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 .footer-right h3 {
     font-size: 18px;
     margin-bottom: 10px;
@@ -187,6 +190,17 @@ footer {
 .footer-middle ul {
     list-style-type: none;
     padding: 0;
+}
+ol.custom-bullets {
+    list-style-type: none;
+    padding-left: 0;
+}
+ol.custom-bullets li::before {
+    content: "•";
+    color: black;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 .footer-middle ul li {

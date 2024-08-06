@@ -98,3 +98,54 @@ main {
     color: #fff;
     border-color: #007bff;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .post-content h2 {
+        font-size: 1.2em;
+    }
+
+    .post-content p {
+        font-size: 0.9em;
+    }
+
+    .pagination {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pagination .page,
+    .pagination .next {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px;
+    }
+
+    .blog-post {
+        margin-bottom: 20px;
+    }
+
+    .post-content {
+        padding: 10px;
+    }
+
+    .post-content h2 {
+        font-size: 1em;
+    }
+
+    .post-content p {
+        font-size: 0.8em;
+    }
+
+    .pagination .page,
+    .pagination .next {
+        font-size: 0.9em;
+        padding: 8px 16px;
+    }
+}
