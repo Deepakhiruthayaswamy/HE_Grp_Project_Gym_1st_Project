@@ -14,6 +14,7 @@
 
 .ourTeam h1 {
   color: #fff;
+  font-size: 60px;
 }
 
 /* Team Member */
@@ -32,15 +33,37 @@
   gap: 30px;
 }
 
+.image-container {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
 .zoom-effect {
   height: 350px;
   width: 350px;
+  transition: transform 0.3s ease;
+}
+
+.member {
+  font-weight: bold;
+  font-size: 27px;
+  margin-top: 18px;
 }
 
 .Member-Name {
   font-weight: bold;
   font-size: 27px;
-  margin-top: 10px;
+  margin-top: 18px;
 }
 
 .position {
@@ -125,18 +148,53 @@ progress::-webkit-progress-value {
   margin-bottom: 20px;
 }
 
+.breakfast-image-gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.breakfast-image-container {
+  margin: 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.breakfast-container img {
+  width: 100%;
+  transition: transform 0.2s ease;
+}
+
+.breakfast-container:hover img {
+  transform: scale(1.1);
+}
+
 /* FLEXIBILITY */
 .flexibility {
   background-color: #ccff00;
-  height: 45px;
+  height: 55px;
   display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  gap: 6rem;
   justify-content: space-around;
-  font-size: 18px;
+  font-size: 12px;
   margin-top: 85px;
 }
 .flex-para {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.flexibility p {
+  font-size: 1.5rem;
+  animation: rightToLeft 10s infinite linear;
+}
+@keyframes rightToLeft {
+  to {
+    transform: translateX(calc(-100% - 6rem));
+  }
 }
 
 /* Join Our Gym */
@@ -157,10 +215,13 @@ progress::-webkit-progress-value {
 .gym-text {
   margin-left: 90px;
 }
+.gym-text h1 {
+  font-size: 52px;
+}
 
 .gym-text p {
   margin-top: 14px;
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .join-us {
@@ -174,4 +235,527 @@ progress::-webkit-progress-value {
   border-radius: 50%;
   font-weight: bold;
   font-size: 18px;
+}
+
+/* Media queries */
+/* For Mobile */
+
+@media (max-width: 576px) {
+  .ourTeam {
+    height: 80px;
+  }
+  .ourTeam h1 {
+    font-size: 22px;
+  }
+
+  .featured h1 {
+    font-size: 20px;
+  }
+  .image-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .image-container img {
+    height: 230px;
+    width: 230px;
+  }
+
+  .image-title .Member-Name {
+    font-size: 24px !important;
+  }
+
+  .position {
+    font-size: 18px;
+  }
+  .active-zone {
+    flex-direction: column;
+    align-items: center;
+    position: static;
+    margin-top: 50px;
+  }
+
+  .active-zone-img {
+    height: 330px;
+    width: 330px;
+    position: static;
+    top: 0;
+  }
+
+  .active-zone-description {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .active-zone-description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .active-zone-description p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  .spec-heading {
+    margin-top: 20px;
+  }
+
+  .progress h4 {
+    font-size: 15px;
+  }
+
+  progress {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .progress-item {
+    width: 85%;
+  }
+
+  .breakfast-container {
+    font-size: 17px;
+  }
+
+  .breakfast-container h1 {
+    font-size: 20px;
+  }
+
+  .breakfast-image-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .breakfast-image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .breakfast-image-container img {
+    height: auto;
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .date {
+    font-size: 15px;
+  }
+
+  .image-title .Member-Name {
+    font-size: 17px !important;
+  }
+
+  .brk-para {
+    font-size: 14px;
+  }
+  .flexibility {
+    height: 32px;
+  }
+  .flexibility p {
+    font-size: 13px;
+  }
+  .gym-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gym-text,
+  .join-us {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .gym-text h1 {
+    font-size: 22px;
+  }
+
+  .gym-text p {
+    font-size: 14px;
+  }
+
+  .join-us {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .join-btn {
+    height: 100px;
+    width: 110px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+}
+
+/* Media queries */
+/* For Tablet */
+
+@media (min-width: 426px) and (max-width: 768px) {
+  .ourTeam {
+    height: 180px;
+  }
+  .ourTeam h1 {
+    font-size: 28px;
+  }
+
+  .featured h1 {
+    font-size: 26px;
+  }
+  .image-gallery {
+    align-items: center;
+    margin: 5px;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .image-container img {
+    height: 230px;
+    width: 230px;
+  }
+
+  .member {
+    font-size: 22px !important;
+  }
+
+  .position {
+    font-size: 15px;
+  }
+  .active-zone {
+    align-items: center;
+    margin-top: 50px;
+    padding: 5px;
+  }
+
+  .active-zone-img {
+    height: 330px;
+    width: 330px;
+    position: static;
+    top: 0;
+  }
+
+  .active-zone-description {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .active-zone-description h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .active-zone-description p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 5px;
+  }
+
+  .spec-heading {
+    margin-top: 18px;
+    font-size: 15px;
+  }
+
+  progress {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .progress-item {
+    width: 75%;
+  }
+
+  .breakfast-container {
+    font-size: 17px;
+    margin: 5px;
+  }
+
+  .breakfast-container h1 {
+    font-size: 20px;
+  }
+
+  .breakfast-image-gallery {
+    align-items: center;
+  }
+
+  .breakfast-image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .breakfast-image-container img {
+    height: 210px;
+    width: 250px;
+  }
+
+  .date {
+    font-size: 13px;
+  }
+
+  .Member-Name {
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 18px;
+  }
+
+  .image-title .Member-Name {
+    font-size: 17px !important;
+  }
+
+  .brk-para {
+    font-size: 14px;
+  }
+  .flexibility {
+    height: 32px;
+  }
+  .flexibility p {
+    font-size: 13px;
+  }
+  .gym-content {
+    align-items: center;
+    margin-left: 15px;
+  }
+
+  .gym-text,
+  .join-us {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .gym-text h1 {
+    font-size: 23px;
+  }
+
+  .gym-text p {
+    font-size: 13px;
+  }
+
+  .join-us {
+    width: 100%;
+    display: flex;
+  }
+
+  .join-btn {
+    height: 100px;
+    width: 110px;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 230px;
+  }
+}
+
+/* Media queries */
+/* For Smaller Laptop*/
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .ourTeam {
+    height: 220px;
+  }
+  .ourTeam h1 {
+    font-size: 32px;
+  }
+
+  .featured h1 {
+    font-size: 30px;
+  }
+  .image-gallery {
+    align-items: center;
+    margin: 5px;
+  }
+  .image-container {
+    width: 100%;
+  }
+  .image-container img {
+    height: 280px;
+    width: 280px;
+  }
+
+  .member {
+    font-size: 26px !important;
+  }
+
+  .position {
+    font-size: 18px;
+  }
+  .active-zone {
+    align-items: center;
+    position: relative;
+    margin-top: 120px;
+    padding: 5px;
+  }
+
+  .active-zone-img {
+    height: 450px;
+    position: relative;
+    margin-top: -65px;
+    width: 450px;
+    top: 0;
+  }
+
+  .active-zone-description {
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .active-zone-description h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  .active-zone-description p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 5px;
+  }
+
+  .spec-heading {
+    margin-top: 18px;
+    font-size: 17px;
+  }
+
+  progress {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .progress-item {
+    width: 75%;
+    margin-top: 10px;
+  }
+
+  .breakfast-container {
+    font-size: 17px;
+    margin: 5px;
+  }
+
+  .breakfast-container h1 {
+    font-size: 28px;
+  }
+
+  .breakfast-image-gallery {
+    align-items: center;
+  }
+
+  .breakfast-image-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .breakfast-image-container img {
+    height: 260px;
+    width: 310px;
+  }
+
+  .date {
+    font-size: 15px;
+  }
+
+  .Member-Name {
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 18px;
+  }
+
+  .brk-para {
+    font-size: 16px;
+  }
+  .flexibility {
+    height: 38px;
+  }
+  .flexibility p {
+    font-size: 16px;
+  }
+  .gym-content {
+    align-items: center;
+  }
+
+  .gym-text,
+  .join-us {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .gym-text h1 {
+    font-size: 30px;
+  }
+
+  .gym-text p {
+    font-size: 16px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .join-us {
+    display: flex;
+  }
+
+  .join-btn {
+    height: 130px;
+    width: 140px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-left: 50px;
+  }
+}
+
+/* Media queries */
+/* For Larger Laptop */
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .gym-content {
+    align-items: center;
+  }
+
+  .gym-text,
+  .join-us {
+    max-width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .gym-text h1 {
+    font-size: 39px;
+  }
+
+  .gym-text p {
+    font-size: 19px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .join-us {
+    display: flex;
+  }
+
+  .join-btn {
+    height: 180px;
+    width: 190px;
+    border-radius: 50%;
+    font-size: 15px;
+    margin-left: 330px;
+  }
 }
