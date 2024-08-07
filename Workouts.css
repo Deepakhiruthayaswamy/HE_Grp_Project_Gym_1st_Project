@@ -7,19 +7,45 @@ body{
     text-align: center;
 
 }
-.workouts{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* nvabar  */
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 10px;
+    font-family:sans-serif;
+    font-weight: normal; 
+  }
+  .navbar-expand-lg{
+    background-color: #000;
+  }
+  .navbar-nav{
+    margin-right: 40px;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #e3ff04;
+  }
+  
+  .navbar-brand {
+    margin-left: 60px;
+  }
+
+.Customworkouts {
     height: 20rem;
     background-color: #0a0c00;
+    overflow: hidden;
 }
-.wh2{
-    color: white;
+
+.Customwh2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center 30%;
 }
 
 
-.secondSectionHeading{
+
+.CustomsecondSectionHeading{
     margin: 5rem 2rem 0rem 2rem;
     font-size: 4rem;
     text-align: center;
@@ -28,7 +54,7 @@ body{
 }
 
 
-.sectionOne {
+.CustomsectionOne {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -37,7 +63,7 @@ body{
 }
 
 
-.posterImage {
+.CustomposterImage {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -47,34 +73,35 @@ body{
 
 
 
-.subhead{
+.Customsubhead{
     margin: 1rem 0rem 1rem 0rem;
     font-size: 2rem;
 }
 
 
 
-.lifeStyle{
+.CustomlifeStyle{
     position: relative;
     margin-top: 15rem;
  
 }
-.container{
+.Customcontainer{
     display: flex;
     flex-direction: row;
     margin-top: 8rem;
     background-color: #0a0c00;
 
 }
-.content{
+.Customcontent{
     background-color: #0a0c00;
     width: 40%;
     margin-left: 8rem;
     color: white;
     margin-bottom: 5rem;
 }
-.heading{
-    font-size: 4rem;
+.Customheading{
+    margin-top: 2rem;
+    font-size: 3.4rem;
     text-align: left;
 }
 p{
@@ -84,14 +111,14 @@ p{
     text-align: left;
 }
 
-.image2{
+.Customimage2{
     position: absolute;
     right: 0px;
     top: -85px;
     width: 42rem;
-    height: 45rem;
+    height: 43rem;
 }
-.image1{
+.Customimage1{
     position: absolute;
     left: 0px;
     bottom: -15px;
@@ -128,70 +155,70 @@ table tr td:last-child {
 
 
 
-.member{
+.Custommember{
     display: flex;
     flex-direction: row;
     margin: 8rem;
 }
-.memberhead .heading{
+.Custommemberhead .Customheading{
     margin-bottom: 0px;
     
 }
-.para{
+.Custompara{
     margin-top: 1.2rem;
     line-height: 1.3;
 }
-.gymposter{
+.Customgymposter{
     margin-left: 2rem;
     display: flex;
     flex-direction: column;
 }
-.image3{
+.Customimage3{
     width: 43rem;
     height: 43rem;
 }
-.membercards{
+.Custommembercards{
 
     padding: 4rem;
     background-color: #f6f5f3;
 }
-.memberContainer{
+.CustommemberContainer{
 
     background-color: #f6f5f3;
 }
-.image4{
+.Customimage4{
     width: 8rem;
     height: 8rem;
     border-radius: 100%;
 }
-.memberContent p{
+.CustommemberContent p{
     text-align: center;
 }
-.memberContent p:nth-of-type(3){
+.CustommemberContent p:nth-of-type(3){
     font-weight: 900;
     font-size: 2.3rem;
     margin-bottom: 0px;
 }
 
-.memberContent p:nth-of-type(4){
+.CustommemberContent p:nth-of-type(4){
     font-weight: 100;
     font-size: 1.6rem;
     margin-top: 0px;
     letter-spacing: 0.3rem;
 }
 
-.services{
+.Customservices{
     background-color: #e3ff04;
     padding: 2rem;
 }
-.servicescontainer{
+.Customservicescontainer{
     margin: 0px;
 }
-.servicescontainer h2{
+.Customservicescontainer h2{
     line-height: 1;
 
 }
-.banner{
+.Custombanner{
     padding: 0.3rem 0rem;
     background-color: #e3ff04;
     display: flex;
@@ -200,7 +227,7 @@ table tr td:last-child {
     gap:6rem;
     
 }
-.banner h3{
+.Custombanner h3{
     font-size: 3rem;
     animation: rightToLeft 10s infinite linear;
 }
@@ -211,26 +238,26 @@ to{
     
 }
 
-.containerJoin{
+.CustomcontainerJoin{
     display: flex;
     flex-direction: row;
     background-color: #0a0c00;
     color: white;
 }
-.contentJoin{
+.CustomcontentJoin{
     padding: 8rem 15rem 8rem 8rem ;
 
 }
-.contentJoin h2{
+.CustomcontentJoin h2{
     margin: 0px;
 }
-.joinusbutton{
+.Customjoinusbutton{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 34%;
 }
-button{
+.JoinusCustomButton{
     background-color:#e3ff04 ;
     border-radius: 100%;
     font-size: 1.5rem;
@@ -242,33 +269,105 @@ a{
     text-decoration: none;
     color: black;
 }
-button:hover{
+.JoinusCustomButton:hover{
     background-color: #f6f5f3;
 }
 
+/* footer  */
+/* .menu2{
+    margin-left: 5%;
+}
 
+.menu3{
+    margin-left: -10%;
+} */
 
+.footer-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    margin-bottom: none;
+    font-family: "Oswald";
+    font-weight: normal;
+}
+
+.footer-section p {
+    margin: 10px 0;
+}
+.social-media a {
+    margin-right: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: -4%;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+.footer-section h4 {
+    margin-bottom: 20px;
+    font-weight: bold
+}
+
+.footer-section ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section p i {
+    margin-right: 10px;
+}
+.left{
+    margin-top: -3%;
+}
+
+.word{
+    font-weight: bold;
+}
 
 /* media query  */
 
 @media screen and (max-width:1496px) {
-    .member{
+    .Custommember{
         margin: 1rem 1rem 1rem 8rem ;
     }
 }
   
 @media screen and (max-width:1357px) {
-    .heading{
+    .Customheading{
         font-size: 2.2rem;
        }
        .p{
         font-size: 1rem;
            }
-           .image2{
+           .Customimage2{
             width: 33rem;
             height: 28rem;
            }
-           .member{
+           .Custommember{
             margin: 1rem;
         }
         
@@ -277,152 +376,169 @@ button:hover{
 
   
 @media screen and (max-width:1150px) {
- 
+    .CustomlifeStyle{
+        margin-top: 0.2rem;
+    }
+    .JoinusCustomButton{
+        margin-bottom: 0.6rem;
+    }
     /* activity section  */
 
-.sectionOne{
+.CustomsectionOne{
     margin: 1.2rem;
     flex-wrap: wrap;
      justify-content: center; 
 }
-.posterImage{
+.CustomposterImage{
     width: 27rem;
     height: 35rem;
 }
 
    /* lifestyle  */
-   .container{
+   .Customcontainer{
     display: flex;
     flex-direction: column;
+    margin-top: 1rem;
    }
-   .image2{
+
+   .Customimage2{
     position: static;
     width: 100%;
     height: 50rem;
 
    }
-   .image1{
+   .Customimage1{
     display: none;
    }
-   .image-container{
+   .Customimage-container{
     margin: 1rem;
    }
-   .content{
+   .Customcontent{
     width: auto;
     margin-left: 1rem;
+    margin-top: 1rem;
    }
 
 
    /* member  */
-    .member{
+    .Custommember{
         flex-direction: column;
     }
-    .gymposter{
+    .Customgymposter{
        margin: 0px;
     }
-    .image3{
+    .Customimage3{
         width: 100%;
         height: 53rem;
     }
-    .services{
+    .Customservices{
         margin-top: 3rem;
     }
-    .num{
+    .Customnum{
         font-size: 3rem;
     }
-    .desc{
+    .Customdesc{
         font-size: 1.2rem;
     }
-    .banner h3{
+    .Custombanner h3{
         font-size: 2.2rem;
     }
 
 }
 @media screen and (max-width:1025px) {
 
-
-.containerJoin{
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+.CustomcontainerJoin{
     flex-direction: column;
     margin: 0px;
     padding: 0px;
 }
-.joinusbutton{
+.Customjoinusbutton{
 align-items: center;
 }
-.contentJoin{
+.CustomcontentJoin{
     padding: 1rem ;
 }
 p{
     font-size: 1rem;
 }
-button{
+.JoinusCustomButton{
     width: 5rem;
     height: 5rem;
     font-size: 1rem;
 }
-.secondSectionHeading{
+.CustomsecondSectionHeading{
  padding: 0rem 5rem;
  font-size: 2.5rem;
 }
 
 }
 @media screen and (max-width:580px){
-.secondSectionHeading{
+    .navbar-nav {
+        margin-top: 10px;
+    }
+.CustomsecondSectionHeading{
         padding: 0rem 0rem;
         font-size: 2.3rem;
        }
-.image3{
+.Customimage3{
     height: 25rem;
 }
-.services{
+.Customservices{
     margin-top: 1rem;
 }
-.membercards{
+.Custommembercards{
     padding: 1rem;
 }
-.memberContent p:nth-of-type(3){
+.CustommemberContent p:nth-of-type(3){
     font-size: 1.6rem;
 }
-.memberContent p:nth-of-type(4){
+.CustommemberContent p:nth-of-type(4){
     font-size: 1rem;
     letter-spacing: 0.1rem;
 }
-.image2{
+.Customimage2{
     height: 23rem;
 }
-.posterImage{
+.CustomposterImage{
     width: 18rem;
     height: 26rem;
 }
-.num{
+.Customnum{
     font-size:1.5rem ;
 }
-.banner h3{
+.Custombanner h3{
     font-size: 1.7rem;
 }
 
 }
- @media screen and (max-width:426px){
-    .secondSectionHeading{
+ @media screen and (max-width:480px){
+    .CustomsecondSectionHeading{
         font-size: 1.7rem;
        }
-       .heading{
+       .Customheading{
         font-size: 1.3rem;
        }
        p{
         font-size: 0.9rem;
        }
-       .subhead{
+       .Customsubhead{
         font-size: 1.6rem;
        }
+       .navbar-nav {
+        margin-top: 5px;
+    }
 } 
 
-
+         
 
 /* animation  */
-.posterImage {
-    transition: transform 0.3s ease-in-out; /* Smooth transition for the transform property */
+.CustomposterImage {
+    transition: transform 0.3s ease-in-out;
 }
-.posterImage:hover {
+.CustomposterImage:hover {
     transform: translateY(0) scale(1.1);
 }
