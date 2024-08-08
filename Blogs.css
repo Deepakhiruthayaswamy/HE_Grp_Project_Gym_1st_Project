@@ -25,11 +25,17 @@ header h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(Assets/blogbanner.jpg);
+    width: 100%;
+    height:60vh;
+    background-size: cover;
+    z-index:-1
   }
   
   .blog h1 {
     color: #fff;
     font-size: 60px;
+    margin-top: -1%;
   }
   
 
@@ -42,7 +48,8 @@ main {
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    margin: 100px;
+    margin-top: 10%;
+    margin-bottom: none;
 }
 
 .blog-post {
@@ -68,11 +75,13 @@ main {
 }
 
 .post-content h2 {
+    font-family: "oswald";
     margin: 10px 0;
     font-size: 24px;
 }
 
 .post-content p {
+    font-family: sans-serif;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -94,6 +103,8 @@ main {
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    margin-top: 1%;
+    margin-bottom: 5%;
 }
 
 .pagination a {
