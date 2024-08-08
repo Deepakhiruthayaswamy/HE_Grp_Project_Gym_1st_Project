@@ -1,4 +1,4 @@
-body{
+/* body{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -6,7 +6,7 @@ body{
     margin: 0px;
     text-align: center;
 
-}
+} */
 
 
 .Customworkouts {
@@ -83,12 +83,12 @@ body{
     font-size: 3.4rem;
     text-align: left;
 }
-p{
+/* p{
     font-size: 1.6rem;
     font-weight: 300;
     line-height: 2;
     text-align: left;
-}
+} */
 
 .Customimage2{
     position: absolute;
