@@ -41,6 +41,7 @@ html,body{
 
 
 /* background image and buttens start */
+
 .back{
 
     background-image: url(abooutassets/GYm.jpg);
@@ -50,8 +51,6 @@ html,body{
     z-index:-1;
 }
 .back .overlay{
-
-
     background: #171819;
     width:100%;
     height: 100%;
