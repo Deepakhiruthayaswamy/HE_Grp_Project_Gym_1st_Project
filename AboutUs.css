@@ -31,7 +31,7 @@ html,body{
     margin:0;
     padding: 0;
     box-sizing:border-box;
-    font-family: "Joswald";
+    font-family: "Oswald";
 }
 
 /* navbar */
@@ -263,7 +263,7 @@ margin-top: 2rem;
   }
   
   .session__card {
-    padding: 6rem 2rem;
+    padding: 10rem 1rem;
     text-align: center;
     background-size: cover;
     background-position: center center;
@@ -328,13 +328,13 @@ margin-top: 2rem;
 .counting-customers{
 
 
-  background-color: #f6f5f3;
+  background-color: #e3ff04;
   text-align: center;
   width: 100%;
   height: 38vh;  
   display: flex;
   text-transform: uppercase; 
-  margin-top: 160px;
+  margin-top: 140px;
   
 
 
@@ -343,7 +343,7 @@ margin-top: 2rem;
 .counting{
 
 
-margin-top: 100px;
+margin-top: 80px;
 transform: translate(50%);
 padding: 0px 60px 0px 60px;
 }
@@ -372,7 +372,7 @@ padding: 0px 60px 0px 60px;
 
 .counter-image img{
   width: 100%;
-  height:70vh;
+  height:100vh;
   
 }
 
@@ -502,12 +502,13 @@ padding: 0px 60px 0px 60px;
   width: 93%; 
   border:none;
   padding-bottom: 90px;
+  
 
 }
 .image-footer{
-
-  padding-left: 40px;
- transform: translate(8%);
+   
+  padding: 10px;
+ transform: translate(12%);
 }
 .image-footer .images img{
 
@@ -528,11 +529,13 @@ width: 100%;
 text-transform: uppercase;
 margin-top:-9px; 
 
+
  
 
 }
 .down .con-img{
  color: #0A0C00;
+ font-weight:900;
 
   
 }
@@ -541,12 +544,12 @@ margin-top:-9px;
 }
 
 .down-img{
-  font-weight: lighter;
+  font-weight: bolder;
   font-family: "Oswald",sans-serif;
   font-size: 15px;
   text-decoration: none;
   color: #0A0C00;  
-  display: block;
+ 
 }
 .down-img  hr{
   width: 16%;
@@ -568,6 +571,7 @@ margin-top:-9px;
 #trainer{
 
   padding-top:100px
+  
 }
 
 
