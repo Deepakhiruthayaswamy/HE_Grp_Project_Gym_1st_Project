@@ -131,7 +131,7 @@ body {
 }
 
 /* Footer Styles */
-footer {
+/* footer {
     background-color: #f4f4f4;
     padding: 40px 20px;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
@@ -223,7 +223,7 @@ ol.custom-bullets li::before {
 .footer-right p {
     color: #333;
     margin: 5px 0;
-}
+} */
 
 /* Media Queries */
 @media (max-width: 768px) {
