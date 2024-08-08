@@ -7,28 +7,7 @@ body{
     text-align: center;
 
 }
-/* nvabar  */
-.navbar-nav .nav-link {
-    color: #fff;
-    font-size: 1rem;
-    margin-left: 10px;
-    font-family:sans-serif;
-    font-weight: normal; 
-  }
-  .navbar-expand-lg{
-    background-color: #000;
-  }
-  .navbar-nav{
-    margin-right: 40px;
-  }
-  
-  .navbar-nav .nav-link:hover {
-    color: #e3ff04;
-  }
-  
-  .navbar-brand {
-    margin-left: 60px;
-  }
+
 
 .Customworkouts {
     height: 20rem;
@@ -273,80 +252,7 @@ a{
     background-color: #f6f5f3;
 }
 
-/* footer  */
-/* .menu2{
-    margin-left: 5%;
-}
 
-.menu3{
-    margin-left: -10%;
-} */
-
-.footer-section {
-    background-color: #f8f9fa;
-    padding: 80px 0;
-    margin-bottom: none;
-    font-family: "Oswald";
-    font-weight: normal;
-}
-
-.footer-section p {
-    margin: 10px 0;
-}
-.social-media a {
-    margin-right: 10px;
-    color: #000;
-    text-decoration: none;
-}
-
-.social-media a:hover {
-    text-decoration: underline;
-}
-
-.footer-bottom {
-    background-color: #000;
-    color: #fff;
-    padding: 10px 0;
-    margin-bottom: -4%;
-}
-
-.footer-bottom p {
-    margin: 0;
-}
-
-.footer-section h4 {
-    margin-bottom: 20px;
-    font-weight: bold
-}
-
-.footer-section ul {
-    padding: 0;
-    list-style: none;
-}
-
-.footer-section ul li {
-    margin-bottom: 10px;
-}
-
-.footer-section ul li a {
-    color: #000;
-    text-decoration: none;
-}
-
-.footer-section ul li a:hover {
-    text-decoration: underline;
-}
-
-.footer-section p i {
-    margin-right: 10px;
-}
-.left{
-    margin-top: -3%;
-}
-
-.word{
-    font-weight: bold;
-}
 
 /* media query  */
 
@@ -447,10 +353,7 @@ a{
 }
 @media screen and (max-width:1025px) {
 
-    .navbar-nav {
-        flex-direction: column;
-        text-align: center;
-    }
+ 
 .CustomcontainerJoin{
     flex-direction: column;
     margin: 0px;
@@ -477,9 +380,7 @@ p{
 
 }
 @media screen and (max-width:580px){
-    .navbar-nav {
-        margin-top: 10px;
-    }
+ 
 .CustomsecondSectionHeading{
         padding: 0rem 0rem;
         font-size: 2.3rem;
@@ -528,9 +429,7 @@ p{
        .Customsubhead{
         font-size: 1.6rem;
        }
-       .navbar-nav {
-        margin-top: 5px;
-    }
+ 
 } 
 
          
