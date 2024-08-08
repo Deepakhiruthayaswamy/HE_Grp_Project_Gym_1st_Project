@@ -282,6 +282,14 @@ a{
 
   
 @media screen and (max-width:1150px) {
+    .menu2{
+        margin-left: 0% !important;
+    }
+    
+    .menu3{
+        margin-left: 0% !important; 
+    }
+    
     .CustomlifeStyle{
         margin-top: 0.2rem;
     }
