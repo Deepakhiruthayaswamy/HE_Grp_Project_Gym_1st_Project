@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    let valuedisplays = document.querySelectorAll(".num");
+    let valuedisplays = document.querySelectorAll(".Customnum");
     let interval = 2000;
 
 

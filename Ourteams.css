@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -68,7 +70,8 @@
 
 .position {
   margin-top: 8px;
-  font-size: 20px;
+  font-size: 22px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 /* Active zone */
@@ -100,11 +103,14 @@
 }
 
 .active-zone-description p {
-  font-size: 20px;
+  font-size: 22px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 .spec-heading {
-  margin-top: 30px;
+  margin-top: 20px;
+  font-size: 19px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 progress {
   width: 100%;
@@ -138,14 +144,17 @@ progress::-webkit-progress-value {
 }
 .brk-para {
   margin-top: 20px;
+  font-size: 18px;
   text-decoration: underline;
   text-underline-offset: 8px;
   padding: 5px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 .date {
   margin-top: 20px;
   margin-bottom: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 .breakfast-image-gallery {
@@ -221,7 +230,8 @@ progress::-webkit-progress-value {
 
 .gym-text p {
   margin-top: 14px;
-  font-size: 19px;
+  font-size: 21px;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 
 .join-us {
@@ -230,11 +240,12 @@ progress::-webkit-progress-value {
 
 .join-btn {
   background-color: #ccff00;
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
+  font-family: "PT Sans Narrow", sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 23px;
 }
 
 /* Media queries */
@@ -755,7 +766,7 @@ progress::-webkit-progress-value {
     height: 180px;
     width: 190px;
     border-radius: 50%;
-    font-size: 15px;
+    font-size: 20px;
     margin-left: 330px;
   }
 }
