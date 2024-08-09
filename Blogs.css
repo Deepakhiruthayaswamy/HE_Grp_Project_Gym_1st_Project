@@ -20,6 +20,7 @@ header h1 {
 } */
 
 .blog {
+    margin-bottom: none;
     background-color: black;
     height: 320px;
     display: flex;
@@ -35,12 +36,12 @@ header h1 {
   .blog h1 {
     color: #fff;
     font-size: 60px;
-    margin-top: -1%;
+    margin-top: -3%;
   }
   
 
 main {
-    padding: 20px;
+    padding: 10px;
 }
 
 .blog-grid {
@@ -57,6 +58,8 @@ main {
     border-radius: 0px;
     overflow: hidden;
     width: 48%;
+    margin-top: -5%;
+    margin-bottom: 4%;
 }
 
 .blog-post img {
@@ -65,7 +68,8 @@ main {
 }
 
 .post-content {
-    padding: 20px;
+    padding: 0px;
+    text-align: left;
 }
 
 .post-content span {
@@ -104,7 +108,7 @@ main {
     justify-content: center;
     padding: 10px 0;
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
 }
 
 .pagination a {
@@ -127,24 +131,58 @@ main {
 }
 
 /* Media Queries */
-@media (max-width: 768px) {
-    .blog-grid {
-        grid-template-columns: 1fr;
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .blog-post {
+        width: 32%;
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    .blog-grid {
-        grid-template-columns: repeat(2, 1fr);
+/* Medium devices (tablets, 768px to 1199px) */
+@media (max-width: 1199px) {
+    .blog-post {
+        width: 48%;
     }
 }
 
-@media (min-width: 1025px) {
-    .blog-grid {
-        grid-template-columns: repeat(3, 1fr);
+/* Small devices (landscape phones, 576px to 767px) */
+@media (max-width: 767px) {
+    .blog h1 {
+        font-size: 40px;
+    }
+
+    .blog-post {
+        width: 100%;
+    }
+
+    .post-content h2 {
+        font-size: 20px;
+    }
+
+    .post-content p {
+        font-size: 14px;
     }
 }
 
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+    .blog h1 {
+        font-size: 35px;
+    }
+
+    .blog-post {
+        width: 100%;
+    }
+
+    .post-content h2 {
+        font-size: 18px;
+    }
+
+    .post-content p {
+        font-size: 14px;
+    }
+}
 
 
 

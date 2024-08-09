@@ -6,17 +6,20 @@
 }
 
 /* Our Team */
-.ourTeam {
-  background-color: black;
-  height: 320px;
+.TeamBanner {
+  background-image: url("./OurTeam.Assets/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
+  width: 100%;
+  height: 45vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-size: cover;
+  background-position: center;
 }
 
-.ourTeam h1 {
+.TeamBanner h4 {
   color: #fff;
-  font-size: 60px;
+  font-size: 6rem;
 }
 
 /* Team Member */
@@ -60,6 +63,7 @@
   font-weight: bold;
   font-size: 27px;
   margin-top: 18px;
+  margin-bottom: 5px !important;
 }
 
 .Member-Name {
@@ -69,7 +73,7 @@
 }
 
 .position {
-  margin-top: 8px;
+  margin-top: 6px;
   font-size: 22px;
   font-family: "PT Sans Narrow", sans-serif;
 }
@@ -253,11 +257,11 @@ progress::-webkit-progress-value {
 /* For Mobile */
 
 @media (max-width: 576px) {
-  .ourTeam {
+  .TeamBanner {
     height: 80px;
   }
-  .ourTeam h1 {
-    font-size: 22px;
+  .TeamBanner h4 {
+    font-size: 26px;
   }
 
   .featured h1 {
@@ -413,11 +417,11 @@ progress::-webkit-progress-value {
 /* For Tablet */
 
 @media (min-width: 426px) and (max-width: 768px) {
-  .ourTeam {
+  .TeamBanner {
     height: 180px;
   }
-  .ourTeam h1 {
-    font-size: 28px;
+  .TeamBanner h4 {
+    font-size: 50px;
   }
 
   .featured h1 {
@@ -575,11 +579,11 @@ progress::-webkit-progress-value {
 /* For Smaller Laptop*/
 
 @media (min-width: 769px) and (max-width: 1024px) {
-  .ourTeam {
-    height: 220px;
+  .TeamBanner {
+    height: 250px;
   }
-  .ourTeam h1 {
-    font-size: 32px;
+  .TeamBanner h4 {
+    font-size: 75px;
   }
 
   .featured h1 {
@@ -737,6 +741,12 @@ progress::-webkit-progress-value {
 /* For Larger Laptop */
 
 @media (min-width: 1025px) and (max-width: 1440px) {
+  .TeamBanner {
+    height: 270px;
+  }
+  .TeamBanner h4 {
+    font-size: 85px;
+  }
   .gym-content {
     align-items: center;
   }

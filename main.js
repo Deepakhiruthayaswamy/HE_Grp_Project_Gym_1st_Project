@@ -11,5 +11,4 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector('footer').innerHTML = data;
       });
   });
- 
-  
+     
