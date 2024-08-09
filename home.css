@@ -471,7 +471,8 @@ h1 {
 
 /* Scroll-to-top button */
 #scrollToTopBtn {
-    
+    width: 70px; 
+    height: 70px; 
     position:fixed;
     bottom: 40px;
     right: 30px;
@@ -482,7 +483,7 @@ h1 {
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 50%;
+    border-radius: 100%;
     font-size: 18px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
 }
