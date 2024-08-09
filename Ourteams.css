@@ -9,7 +9,7 @@
 .TeamBanner {
   background-image: url("./OurTeam.Assets/anastase-maragos-9dzWZQWZMdE-unsplash.jpg");
   width: 100%;
-  height: 45vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,23 +25,23 @@
 /* Team Member */
 .featured {
   text-align: center;
-  margin-bottom: 40px;
-  margin-top: 55px;
+  margin-bottom: 10px;
+  margin-top: 40px;
 }
-.team-member-heading {
-  margin-bottom: 40px;
-}
+
 .image-gallery {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 30px;
+  margin-top: -50px !important;
+  margin-bottom: 90px;
 }
 
 .image-container {
-  position: relative;
-  overflow: hidden;
-  margin: 10px;
+  height: 350px;
+  width: 350px;
+  margin-top: 69px;
 }
 
 .image-container img {
@@ -54,16 +54,19 @@
 }
 
 .zoom-effect {
-  height: 350px;
-  width: 350px;
   transition: transform 0.3s ease;
+}
+
+.team-member-heading {
+  margin-bottom: 10px !important;
+  padding-bottom: 0;
 }
 
 .member {
   font-weight: bold;
   font-size: 27px;
   margin-top: 18px;
-  margin-bottom: 5px !important;
+  margin-bottom: 3px !important;
 }
 
 .Member-Name {
@@ -73,7 +76,7 @@
 }
 
 .position {
-  margin-top: 6px;
+  margin-top: 3px;
   font-size: 22px;
   font-family: "PT Sans Narrow", sans-serif;
 }
@@ -83,7 +86,7 @@
   height: 720px;
   width: 850px;
   position: relative;
-  top: -120px;
+  top: -70px;
 }
 
 .active-zone {
@@ -94,7 +97,7 @@
   position: relative;
 }
 .active-zone-description {
-  margin-top: 150px;
+  margin-top: 170px;
   margin-left: 60px;
   margin-right: 20px;
   text-align: left;
@@ -111,53 +114,34 @@
   font-family: "PT Sans Narrow", sans-serif;
 }
 
-.spec-heading {
-  margin-top: 20px;
-  font-size: 19px;
-  font-family: "PT Sans Narrow", sans-serif;
-}
-progress {
-  width: 100%;
-  height: 10px;
-  margin-bottom: 15px;
-  margin-top: 10px;
-  border-radius: 0px;
-}
-.progress-item {
-  border: 1px solid black;
-  font-weight: bold;
-}
-progress::-webkit-progress-bar {
-  background-color: #fff;
-}
-
-progress::-webkit-progress-value {
-  background-color: #ccff00;
-}
-
 /* Breakfast */
 .Breakfast-heading {
   text-align: center;
-  margin-bottom: 50px;
-  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 .breakfast-img {
   height: 330px;
   width: 400px;
 }
-.brk-para {
+
+.date {
   margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.Member-Name {
+  font-size: 22px;
+  margin-top: -8px;
+}
+
+.brk-para {
+  margin-top: -10px;
   font-size: 18px;
   text-decoration: underline;
   text-underline-offset: 8px;
   padding: 5px;
-  font-family: "PT Sans Narrow", sans-serif;
-}
-
-.date {
-  margin-top: 20px;
-  margin-bottom: 20px;
   font-family: "PT Sans Narrow", sans-serif;
 }
 
@@ -166,17 +150,19 @@ progress::-webkit-progress-value {
   flex-direction: row;
   justify-content: center;
   gap: 30px;
+  text-align: center;
 }
 
 .breakfast-image-container {
   margin: 10px;
   display: inline-block;
-  overflow: hidden;
+  height: 350px;
+  width: 350px;
 }
 
 .breakfast-container img {
   width: 100%;
-  transition: transform 0.2s ease;
+  transition: transform 0.3s ease;
 }
 
 .breakfast-container:hover img {
@@ -193,7 +179,7 @@ progress::-webkit-progress-value {
   gap: 6rem;
   justify-content: space-around;
   font-size: 12px;
-  margin-top: 85px;
+  margin-top: 175px;
 }
 .flex-para {
   margin-top: 10px;
@@ -240,7 +226,7 @@ progress::-webkit-progress-value {
 }
 
 .join-us {
-  margin-left: 310px;
+  margin-left: 270px;
 }
 
 .join-btn {
@@ -264,6 +250,9 @@ progress::-webkit-progress-value {
     font-size: 26px;
   }
 
+  .featured {
+    margin-bottom: 10px !important;
+  }
   .featured h1 {
     font-size: 20px;
   }
@@ -285,6 +274,7 @@ progress::-webkit-progress-value {
 
   .position {
     font-size: 18px;
+    margin-bottom: 10px;
   }
   .active-zone {
     flex-direction: column;
