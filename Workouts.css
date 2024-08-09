@@ -1,5 +1,6 @@
-
-
+body{
+    font-family:"Oswald" !important;
+}
 
 .Customworkouts {
     height: 20rem;
@@ -17,10 +18,9 @@
 
 
 .CustomsecondSectionHeading{
-    margin: 5rem 2rem 0rem 2rem;
+    margin: 3rem 2rem 2rem 2rem;
     font-size: 4rem;
     text-align: center;
-    padding: 0rem 10rem;
 
 }
 
@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 8rem;
+    margin: 1rem 8rem;
     gap: 1rem;
 }
 
@@ -51,16 +51,17 @@
 
 
 
-.CustomlifeStyle{
-    position: relative;
-    margin-top: 15rem;
- 
-}
+
 .Customcontainer{
     display: flex;
     flex-direction: row;
-    margin-top: 8rem;
+    gap: 2rem;
+    position: relative;
     background-color: #0a0c00;
+
+}
+.Customcontent, .Customimage-container {
+    flex: 1;
 
 }
 .Customcontent{
@@ -69,27 +70,29 @@
     margin-left: 8rem;
     color: white;
     margin-bottom: 5rem;
+    margin-top: 2rem;
 }
 .Customheading{
-    margin-top: 2rem;
-    font-size: 3.4rem;
+    font-size: 3rem;
     text-align: left;
 }
+.Customimage-container {
+    display: flex;
+    justify-content: flex-end;
+}
 
-
-.Customimage2{
-    position: absolute;
-    right: 0px;
-    top: -85px;
-    width: 42rem;
-    height: 43rem;
+.Customimage2 {
+    width: 100%;
+    height: 45rem;
+    object-fit: cover;
 }
 .Customimage1{
     position: absolute;
-    left: 0px;
-    bottom: -15px;
-    width: 10rem;
-    height: 15rem;
+    width: 11rem;
+    height: 14rem;
+    bottom: 0px;
+    left: 11px;
+
 }
 table{
     border-spacing: 0;
@@ -119,34 +122,38 @@ table tr td:last-child {
 }
 
 
-
+/* member  */
 
 .Custommember{
     display: flex;
-    flex-direction: row;
-    margin: 8rem;
+    flex-direction: column;
+    margin: 1rem 8rem;
+    gap: 0.5rem;
 }
-.Custommemberhead .Customheading{
-    margin-bottom: 0px;
-    
+.Custommemberpage{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
 }
 .Custompara{
     margin-top: 1.2rem;
     line-height: 1.3;
+    font-size: 1.5rem;
 }
 .CustommemberImage{
     display: flex;
     justify-content: center;
     padding-bottom: 1rem;
 }
-.Customgymposter{
-    margin-left: 2rem;
-    display: flex;
-    flex-direction: column;
+.Customgym-poster {
+    width: 100%;
+    height: 100%;
 }
-.Customimage3{
-    width: 43rem;
-    height: 43rem;
+
+.Customgym-poster img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .Custommembercards{
 
@@ -189,6 +196,11 @@ table tr td:last-child {
     line-height: 1;
 
 }
+
+
+/* member end */
+/* banner  */
+
 .Custombanner{
     padding: 0.3rem 0rem;
     background-color: #e3ff04;
@@ -198,10 +210,15 @@ table tr td:last-child {
     gap:6rem;
     
 }
+
+
+
+
 .Custombanner h3{
-    font-size: 3rem;
     animation: rightToLeft 10s infinite linear;
 }
+
+
 @keyframes rightToLeft {
 to{
     transform:translateX(calc(-100% - 6rem));
@@ -214,6 +231,7 @@ to{
     flex-direction: row;
     background-color: #0a0c00;
     color: white;
+    justify-content: space-between;
 }
 .CustomcontentJoin{
     padding: 8rem 15rem 8rem 8rem ;
@@ -246,31 +264,24 @@ a{
 
 
 
-/* media query  */
-
-@media screen and (max-width:1496px) {
-    .Custommember{
-        margin: 1rem 1rem 1rem 8rem ;
-    }
-}
-  
 @media screen and (max-width:1357px) {
     .Customheading{
         font-size: 2.2rem;
        }
-       .p{
+       .Custompara{
         font-size: 1rem;
            }
-           .Customimage2{
-            width: 33rem;
-            height: 28rem;
-           }
            .Custommember{
-            margin: 1rem;
+            margin: 2rem;
+        }
+        .Customcontent{
+            margin-left: 2rem;
+        }
+        .CustomcontentJoin{
+            padding-left: 2rem;
         }
         
         }
-
 
   
 @media screen and (max-width:1150px) {
@@ -282,16 +293,14 @@ a{
         margin-left: 0% !important; 
     }
     
-    .CustomlifeStyle{
-        margin-top: 0.2rem;
-    }
+
     .JoinusCustomButton{
         margin-bottom: 0.6rem;
     }
     /* activity section  */
 
 .CustomsectionOne{
-    margin: 1.2rem;
+    margin: 1rem;
     flex-wrap: wrap;
      justify-content: center; 
 }
@@ -307,27 +316,21 @@ a{
     margin-top: 1rem;
    }
 
-   .Customimage2{
-    position: static;
-    width: 100%;
-    height: 50rem;
-
-   }
    .Customimage1{
     display: none;
    }
-   .Customimage-container{
-    margin: 1rem;
-   }
+
    .Customcontent{
     width: auto;
-    margin-left: 1rem;
     margin-top: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
    }
 
 
    /* member  */
-    .Custommember{
+    .Custommemberpage{
         flex-direction: column;
     }
     .Customgymposter{
@@ -346,9 +349,7 @@ a{
     .Customdesc{
         font-size: 1.2rem;
     }
-    .Custombanner h3{
-        font-size: 2.2rem;
-    }
+
 
 }
 @media screen and (max-width:1025px) {
@@ -363,9 +364,9 @@ a{
 align-items: center;
 }
 .CustomcontentJoin{
-    padding: 1rem ;
+    padding: 1rem 2rem;
 }
-p{
+.Custompara{
     font-size: 1rem;
 }
 .JoinusCustomButton{
@@ -376,6 +377,7 @@ p{
 .CustomsecondSectionHeading{
  padding: 0rem 5rem;
  font-size: 2.5rem;
+ 
 }
 
 }
@@ -411,9 +413,7 @@ p{
 .Customnum{
     font-size:1.5rem ;
 }
-.Custombanner h3{
-    font-size: 1.7rem;
-}
+
 
 }
  @media screen and (max-width:480px){
@@ -423,7 +423,7 @@ p{
        .Customheading{
         font-size: 1.3rem;
        }
-       p{
+       .Custompara{
         font-size: 0.9rem;
        }
        .Customsubhead{
