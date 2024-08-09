@@ -344,7 +344,7 @@ a{
         margin-top: 3rem;
     }
     .Customnum{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .Customdesc{
         font-size: 1.2rem;
@@ -366,9 +366,7 @@ align-items: center;
 .CustomcontentJoin{
     padding: 1rem 2rem;
 }
-.Custompara{
-    font-size: 1rem;
-}
+
 .JoinusCustomButton{
     width: 5rem;
     height: 5rem;
@@ -411,7 +409,7 @@ align-items: center;
     height: 26rem;
 }
 .Customnum{
-    font-size:1.5rem ;
+    font-size:1.3rem ;
 }
 
 
