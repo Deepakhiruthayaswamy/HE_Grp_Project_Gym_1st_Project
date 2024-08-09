@@ -35,7 +35,7 @@ header h1 {
   
   .blog h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 6rem;
     margin-top: -3%;
   }
   
@@ -51,6 +51,9 @@ main {
     justify-content: center;
     margin-top: 10%;
     margin-bottom: none;
+    padding-left: 7%;
+    padding-right: 7%;
+
 }
 
 .blog-post {
@@ -59,7 +62,8 @@ main {
     overflow: hidden;
     width: 48%;
     margin-top: -5%;
-    margin-bottom: 4%;
+    margin-bottom: 5%;
+    
 }
 
 .blog-post img {
@@ -75,7 +79,7 @@ main {
 .post-content span {
     display: block;
     color: #777777;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .post-content h2 {
@@ -91,8 +95,7 @@ main {
 }
 
 .post-content a {
-    display: inline-block;
-    margin-top: 10px;
+    display: block;
     color: #007BFF;
     text-decoration: none;
     font-weight: bold;
@@ -107,7 +110,7 @@ main {
     display: flex;
     justify-content: center;
     padding: 10px 0;
-    margin-top: 1%;
+    margin-top: -4%;
     margin-bottom: 1%;
 }
 
