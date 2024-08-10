@@ -14,7 +14,6 @@
 
 /* annonyoums */
 html,body{
-
   overflow-x: hidden;
   }
  
@@ -44,9 +43,9 @@ html,body{
 
 .back{
 
-    background-image: url(abooutassets/GYm.jpg);
+    background-image: url(abooutassets/about.webp);
     width: 100%;
-    height:60vh;
+    height:50vh;
     background-size: cover;
     z-index:-1;
 }
@@ -306,6 +305,10 @@ margin-top: 2rem;
     background-color: #dc030a;
     z-index: -1;
   }
+  .session__card button{
+margin-top: 19px;
+
+  }
   
   .session__card p {
     max-width: 350px;
@@ -335,24 +338,23 @@ margin-top: 2rem;
 }
 .counting{
 
-margin-top: 40px;
-transform: translate(35%);
+margin-top: 20px;
+transform: translate(40%);
 padding: 0px 60px 0px 90px;
 }
 
 .counting span{
 
-  font-family: "Oswald",sans-serif;
+  
   font-size: 69px;
   color: #0A0C00;    
-  font-family: "Jost", Sans-serif;   
+  font-family: "Oswald",Sans-serif;   
   font-weight: bolder;   
   letter-spacing: 1px;
   
   
 }
 .counting h5{
- margin-top: -5px;
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 1px;
@@ -391,13 +393,13 @@ padding: 0px 60px 0px 90px;
 }
 .gallery-sec .card:nth-child(1) p{
 	font-size: 14px;
-	margin: 2rem 0;
+	margin: 0.8rem 0;
   color: #0a0a0a;
-  font-family:'Oswald',sans-serif;
+  font-family:sans-serif;
 }
 .gallery-sec .card:nth-child(1) .btn{
-	background: #dc030a;
-	color:#0a0a0a;
+	background: #535252;
+	color:#e3ff04;
 	border: transparent;
   width: 20%;
 }
@@ -542,11 +544,11 @@ color: #dc030a;
   }
   .dot-container h2{
   font-family: "Oswald",sans-serif;
-  margin-top:120px;
+  margin-top:60px;
   text-transform: uppercase;
   font-weight: bolder;
   padding-bottom: 30px;
-  font-size: 40px;
+  font-size: 50px;
   }
 /* end */
 
@@ -600,7 +602,7 @@ width: 100%;
   font-family: "Oswald",sans-serif;
   font-size: 16px;
   text-decoration: none; 
-  margin-top: 35px;
+  margin-top: 25px;
  
 }
 
@@ -609,8 +611,12 @@ width: 100%;
   
 #trainer{
 
-  padding-top:90px;
+  padding-top:40px;
  
+}
+.section__header{
+
+  font-size: 60px;
 }
 
 
@@ -655,7 +661,7 @@ width: 100%;
 
 
 .scroll{
-  margin-top: 90px;
+  margin-top: 17px;
   font-family: "Oswald", sans-serif;
   font-size: 18px;
   background-color: rgba(227,255,4,255);
