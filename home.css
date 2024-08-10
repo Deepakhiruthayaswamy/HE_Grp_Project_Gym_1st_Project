@@ -505,6 +505,13 @@ h1 {
 /* @media Query */
 
 @media (max-width: 1024px) {
+    /* scrollbar  */
+    #scrollToTopBtn {
+        width: 55px;
+        height: 40px;        
+        padding-bottom: 45px;
+
+    }
     .navbar-nav {
         flex-direction: column;
         text-align: center;
