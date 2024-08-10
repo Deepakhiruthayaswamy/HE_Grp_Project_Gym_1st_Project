@@ -246,7 +246,7 @@ h1 {
 
 .display-3{
     font-family: "Oswald";
-    font-size: 3.5em;
+    font-size: 4em;
     font-weight: bold;
     margin-top: 4%;
 }
@@ -392,13 +392,13 @@ h1 {
 
 /* Footer */
 
-.menu2{
+/* .menu2{
     margin-left: 10%;
 }
 
 .menu3{
     margin-left: -10%;
-}
+} */
 
 .footer-section {
     background-color: #f8f9fa;
@@ -505,6 +505,13 @@ h1 {
 /* @media Query */
 
 @media (max-width: 1024px) {
+    /* scrollbar  */
+    #scrollToTopBtn {
+        width: 55px;
+        height: 40px;        
+        padding-bottom: 45px;
+
+    }
     .navbar-nav {
         flex-direction: column;
         text-align: center;
