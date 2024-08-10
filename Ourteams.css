@@ -171,7 +171,7 @@
 
 /* FLEXIBILITY */
 .flexibility {
-  background-color: #ccff00;
+  background-color: #e3ff04;
   height: 55px;
   display: flex;
   overflow: hidden;
@@ -179,7 +179,7 @@
   gap: 6rem;
   justify-content: space-around;
   font-size: 12px;
-  margin-top: 175px;
+  margin-top: 150px;
 }
 .flex-para {
   margin-top: 10px;
@@ -230,7 +230,7 @@
 }
 
 .join-btn {
-  background-color: #ccff00;
+  background-color: #e3ff04;
   height: 180px;
   width: 180px;
   border-radius: 50%;
@@ -250,9 +250,6 @@
     font-size: 26px;
   }
 
-  .featured {
-    margin-bottom: 10px !important;
-  }
   .featured h1 {
     font-size: 20px;
   }
@@ -262,6 +259,7 @@
   }
   .image-container {
     width: 100%;
+    margin-bottom: -100px !important;
   }
   .image-container img {
     height: 230px;
@@ -274,7 +272,6 @@
 
   .position {
     font-size: 18px;
-    margin-bottom: 10px;
   }
   .active-zone {
     flex-direction: column;
@@ -309,28 +306,13 @@
     margin-top: 20px;
   }
 
-  .spec-heading {
-    margin-top: 20px;
-  }
-
-  .progress h4 {
-    font-size: 15px;
-  }
-
-  progress {
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-  .progress-item {
-    width: 85%;
-  }
-
   .breakfast-container {
     font-size: 17px;
   }
 
   .breakfast-container h1 {
     font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .breakfast-image-gallery {
@@ -363,8 +345,10 @@
   .brk-para {
     font-size: 14px;
   }
+
   .flexibility {
     height: 32px;
+    margin-top: -5px;
   }
   .flexibility p {
     font-size: 13px;
@@ -425,8 +409,12 @@
     width: 100%;
   }
   .image-container img {
-    height: 230px;
-    width: 230px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #zoom {
+    margin-top: -85px;
   }
 
   .member {
@@ -438,8 +426,9 @@
   }
   .active-zone {
     align-items: center;
-    margin-top: 50px;
+    margin-top: -110px;
     padding: 5px;
+    width: 100%;
   }
 
   .active-zone-img {
@@ -485,6 +474,10 @@
   .breakfast-container {
     font-size: 17px;
     margin: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .breakfast-container h1 {
@@ -504,29 +497,32 @@
   }
 
   .breakfast-image-container img {
-    height: 210px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
   }
 
   .date {
     font-size: 13px;
+    margin-top: 8px;
+    margin-bottom: -8px;
   }
 
   .Member-Name {
     font-weight: bold;
-    font-size: 26px;
-    margin-top: 18px;
+    font-size: 13px;
+    margin-top: 8px;
   }
-
-  .image-title .Member-Name {
-    font-size: 17px !important;
+  #brkid {
+    margin-top: -15px;
   }
-
   .brk-para {
     font-size: 14px;
+    margin-top: 8px;
   }
   .flexibility {
     height: 32px;
+    margin-top: -45px;
+    width: 100%;
   }
   .flexibility p {
     font-size: 13px;
@@ -544,7 +540,7 @@
   }
 
   .gym-text h1 {
-    font-size: 23px;
+    font-size: 17px;
   }
 
   .gym-text p {
@@ -576,19 +572,23 @@
     font-size: 75px;
   }
 
+  .featured {
+    justify-content: center;
+  }
   .featured h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
   .image-gallery {
-    align-items: center;
+    display: flex;
     margin: 5px;
   }
   .image-container {
     width: 100%;
+    justify-content: center;
   }
   .image-container img {
-    height: 280px;
-    width: 280px;
+    height: 250px;
+    width: 250px;
   }
 
   .member {
@@ -621,13 +621,14 @@
   }
 
   .active-zone-description h2 {
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
+    font-weight: bold;
     margin-top: 10px;
   }
 
   .active-zone-description p {
-    font-size: 15px;
+    font-size: 17px;
     margin-bottom: 10px;
     margin-top: 20px;
     padding: 5px;
@@ -669,8 +670,8 @@
   }
 
   .breakfast-image-container img {
-    height: 260px;
-    width: 310px;
+    height: 250px;
+    width: 250px;
   }
 
   .date {
@@ -679,15 +680,21 @@
 
   .Member-Name {
     font-weight: bold;
-    font-size: 23px;
-    margin-top: 18px;
+    font-size: 18px;
+    margin-top: 8px;
   }
 
   .brk-para {
     font-size: 16px;
   }
+
+  #brkid {
+    margin-top: -18px;
+  }
+
   .flexibility {
     height: 38px;
+    margin-top: -5px;
   }
   .flexibility p {
     font-size: 16px;
@@ -704,11 +711,11 @@
   }
 
   .gym-text h1 {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   .gym-text p {
-    font-size: 16px;
+    font-size: 18px;
     align-items: center;
     margin-top: 20px;
     margin-left: 20px;
@@ -723,7 +730,7 @@
     width: 140px;
     border-radius: 50%;
     font-size: 15px;
-    margin-left: 50px;
+    margin-left: 90px;
   }
 }
 
@@ -737,8 +744,10 @@
   .TeamBanner h4 {
     font-size: 85px;
   }
+
   .gym-content {
     align-items: center;
+    margin-left: 70px;
   }
 
   .gym-text,
