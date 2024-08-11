@@ -786,7 +786,7 @@ a{
   .png{
       border-style: none;
       width:220px;
-      margin: 1px 0px  10px 90px;  
+      margin: 1px 0px  10px 110px;  
      
   }
   /* session card */
@@ -1317,8 +1317,6 @@ color: #dc030a;
 
   
 }
-
-
 
 @media screen and (max-width:1280px){
   .back{
@@ -1949,7 +1947,6 @@ color: #dc030a;
   
 }
 
-
 @media screen and (max-width:1129px){
  
 
@@ -2534,15 +2531,6 @@ color: #dc030a;
   }  
 }
 
-
-
-
-
- 
-
-
-
-
 @media screen and (max-width:1025px){
   .back{   
     width: 100%;
@@ -2734,7 +2722,7 @@ padding: 10px 0px 90px 90px;
   justify-content:center ;  
   width: 93%; 
   border:none;
-  padding-bottom: 90px;
+  padding-bottom: 40px;
 
 }
 .image-footer{
@@ -2783,17 +2771,19 @@ margin-top:-8px;
 .scroll{
 
   font-family: "Oswald";
-  font-size: 18px;
+  font-size: 14px;
   background-color: rgba(227,255,4,255);
   height: 14vh;
+  
 }
 
 .scroll h5{
 
-  font-size: 42px;
+  font-size: 40px;
   text-transform: uppercase;
   font-family:"Oswald",sans-serif;
  text-align: center;
+
 
  
  }/* end */
@@ -2900,6 +2890,15 @@ color: #dc030a;
   background-color: var(--text-dark);
 }
 
+.section__header{
+  margin:0px;
+  padding: 0px;
+  font-size: 40px;
+  margin-top: -10px;
+  font-family: "Oswald";
+
+}
+
 
 
 
@@ -2907,7 +2906,7 @@ color: #dc030a;
   
 #trainer{
 
-  padding-top:50px
+  padding-top:10px
 }
 
 
@@ -3013,6 +3012,7 @@ color: #dc030a;
 
   
 }
+
 @media screen and (max-width:768px){
   .back{     
       width: 100%;
@@ -3128,7 +3128,7 @@ color: #dc030a;
 }
 
 .session__card {
-  padding: 10rem 13rem;
+  padding: 8rem 14rem;
   text-align: center;
   background-size: cover;
   background-position: center center;
@@ -3187,7 +3187,7 @@ color: #dc030a;
 }
 .counting{
 margin-top: 20px;
-padding: 0px 20px 0px 40px;
+padding: 0px 20px 0px 30px;
 }
 
 .counting span{
@@ -3227,7 +3227,7 @@ padding: 0px 20px 0px 40px;
 
 .gallery-sec .card{
 	margin: 1rem;
-	height: 400px;
+	height: 380px;
 	width: 98%;
   background: #f2f7f7;
 	
@@ -3608,9 +3608,6 @@ margin-top: -10px;
 
 
 }
-  
-  
-
 
 @media screen and (max-width:426px) {
  
@@ -4201,8 +4198,6 @@ font-family: sans-serif;
 
   
 }
-
-
 
 @media screen and (max-width:377px) {
  
@@ -4814,8 +4809,7 @@ font-family: sans-serif;
   
   
     
-  }
-
+}
 
   @media screen and (max-width:320px) {
  
@@ -5316,6 +5310,7 @@ font-family: sans-serif;
             text-align: center;
            padding: 10px 15px 0px 8px;
            transform: translate(4%);
+         
         
           
           }
@@ -5352,9 +5347,7 @@ font-family: sans-serif;
           }
     
   
-    .Custombanner {
-      margin-top: -990px;
-    }
+          
     
     .Custombanner h3{
   
@@ -5427,7 +5420,8 @@ font-family: sans-serif;
     
     
       
-    }
+}
+
   
 
 
