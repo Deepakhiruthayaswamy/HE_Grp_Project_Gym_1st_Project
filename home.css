@@ -504,98 +504,202 @@ h1 {
 
 /* @media Query */
 
-@media (max-width: 1024px) {
-    /* scrollbar  */
-    #scrollToTopBtn {
-        width: 55px;
-        height: 40px;        
-        padding-bottom: 45px;
-
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .navbar-nav .nav-link {
+        font-size: 0.875rem;
     }
-    .navbar-nav {
-        flex-direction: column;
+    .carousel-caption {
+        bottom: 20%;
+        margin-left: 0;
         text-align: center;
     }
-
-    .carousel-caption {
-        font-size: 16px;
+    .carousel-caption h5 {
+        font-size: 1.5rem;
     }
-
-    .hero-section .hero-content {
-        padding: 20px;
+    .carousel-caption .btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+        width: auto;
+    }
+    .carousel-item {
+        height: 400px;
+    }
+    .text1 {
+        font-size: 1.5rem;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+    .hero-content p {
+        font-size: 0.875rem;
+    }
+    .hero-content ul li {
+        font-size: 0.875rem;
+    }
+    .membership-section h2 {
+        font-size: 1.5rem;
+    }
+    .membership-section .card7 h3 {
+        font-size: 1rem;
+    }
+    .membership-section .card7 h4 {
+        font-size: 1.25rem;
+    }
+    .membership-section .card7 p {
+        font-size: 0.875rem;
     }
 }
 
+/* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-    .navbar-toggler {
-        display: block;
+    .navbar-nav .nav-link {
+        font-size: 1rem;
     }
-
+    .carousel-caption {
+        bottom: 25%;
+        margin-left: 0;
+        text-align: center;
+    }
     .carousel-caption h5 {
-        font-size: 24px;
+        font-size: 2rem;
     }
-
-    .gym-section .gym-content {
-        padding: 15px;
+    .carousel-caption .btn {
+        font-size: 1.2rem;
+        padding: 10px 20px;
+        width: auto;
     }
-
-    .contact-section .form-section {
-        padding: 20px;
+    .carousel-item {
+        height: 500px;
     }
-
-    .membership-section .card7 .card-body {
-        padding: 20px;
+    .text1 {
+        font-size: 2rem;
+    }
+    .card-title {
+        font-size: 1.125rem;
+    }
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+    .hero-content p {
+        font-size: 1rem;
+    }
+    .hero-content ul li {
+        font-size: 1rem;
+    }
+    .membership-section h2 {
+        font-size: 2rem;
+    }
+    .membership-section .card7 h3 {
+        font-size: 1.25rem;
+    }
+    .membership-section .card7 h4 {
+        font-size: 1.5rem;
+    }
+    .membership-section .card7 p {
+        font-size: 1rem;
     }
 }
 
-@media (max-width: 576px) {
-    .navbar-nav {
-        margin-top: 10px;
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem;
     }
-
+    .carousel-caption {
+        bottom: 28%;
+        margin-left: -50px;
+        text-align: left;
+    }
     .carousel-caption h5 {
-        font-size: 18px;
+        font-size: 2.25rem;
     }
-
-    .hero-section .hero-content h1 {
-        font-size: 24px;
+    .carousel-caption .btn {
+        font-size: 1.4rem;
+        padding: 10px 20px;
+        width: 20%;
     }
-
-    .gym-section .gym-content h2 {
-        font-size: 20px;
+    .carousel-item {
+        height: 550px;
     }
-
-    .contact-section .form-section h2 {
-        font-size: 24px;
+    .text1 {
+        font-size: 2.25rem;
     }
-
-    .membership-section .card7 .card-body {
-        padding: 15px;
+    .card-title {
+        font-size: 1.25rem;
+    }
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .hero-content p {
+        font-size: 1.125rem;
+    }
+    .hero-content ul li {
+        font-size: 1.125rem;
+    }
+    .membership-section h2 {
+        font-size: 2.25rem;
+    }
+    .membership-section .card7 h3 {
+        font-size: 1.5rem;
+    }
+    .membership-section .card7 h4 {
+        font-size: 1.75rem;
+    }
+    .membership-section .card7 p {
+        font-size: 1.125rem;
     }
 }
 
-@media (max-width: 480px) {
-    .navbar-nav {
-        margin-top: 5px;
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+    .navbar-nav .nav-link {
+        font-size: 1rem;
     }
-
+    .carousel-caption {
+        bottom: 30%;
+        margin-left: -100px;
+        text-align: left;
+    }
     .carousel-caption h5 {
-        font-size: 16px;
+        font-size: 2.5rem;
     }
-
-    .hero-section .hero-content h1 {
-        font-size: 20px;
+    .carousel-caption .btn {
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        width: 25%;
     }
-
-    .gym-section .gym-content h2 {
-        font-size: 18px;
+    .carousel-item {
+        height: 550px;
     }
-
-    .contact-section .form-section h2 {
-        font-size: 20px;
+    .text1 {
+        font-size: 2.5rem;
     }
-
-    .membership-section .card7 .card-body {
-        padding: 10px;
+    .card-title {
+        font-size: 1.5rem;
+    }
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+    .hero-content p {
+        font-size: 1.25rem;
+    }
+    .hero-content ul li {
+        font-size: 1.25rem;
+    }
+    .membership-section h2 {
+        font-size: 2.5rem;
+    }
+    .membership-section .card7 h3 {
+        font-size: 1.75rem;
+    }
+    .membership-section .card7 h4 {
+        font-size: 2rem;
+    }
+    .membership-section .card7 p {
+        font-size: 1.25rem;
     }
 }
