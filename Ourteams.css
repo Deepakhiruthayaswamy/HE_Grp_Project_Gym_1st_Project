@@ -77,8 +77,8 @@
 
 .position {
   margin-top: 3px;
-  font-size: 22px;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 18px;
+  font-family: sans-serif;
 }
 
 /* Active zone */
@@ -110,8 +110,8 @@
 }
 
 .active-zone-description p {
-  font-size: 22px;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 17px;
+  font-family: sans-serif;
 }
 
 /* Breakfast */
@@ -129,7 +129,8 @@
 .date {
   margin-top: 20px;
   margin-bottom: 10px;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: sans-serif;
+  font-size: 15px;
 }
 .Member-Name {
   font-size: 22px;
@@ -138,11 +139,11 @@
 
 .brk-para {
   margin-top: -10px;
-  font-size: 18px;
+  font-size: 15px;
   text-decoration: underline;
   text-underline-offset: 8px;
   padding: 5px;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: sans-serif;
 }
 
 .breakfast-image-gallery {
@@ -188,6 +189,7 @@
 
 .flexibility p {
   font-size: 1.5rem;
+  font-family: sans-serif;
   animation: rightToLeft 10s infinite linear;
 }
 @keyframes rightToLeft {
@@ -221,8 +223,8 @@
 
 .gym-text p {
   margin-top: 14px;
-  font-size: 21px;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 17px;
+  font-family: sans-serif;
 }
 
 .join-us {
@@ -234,9 +236,9 @@
   height: 180px;
   width: 180px;
   border-radius: 50%;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: sans-serif;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 21px;
 }
 
 /* Media queries */
@@ -271,7 +273,7 @@
   }
 
   .position {
-    font-size: 18px;
+    font-size: 16px;
   }
   .active-zone {
     flex-direction: column;
@@ -301,7 +303,7 @@
   }
 
   .active-zone-description p {
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 10px;
     margin-top: 20px;
   }
@@ -502,7 +504,7 @@
   }
 
   .date {
-    font-size: 13px;
+    font-size: 11px;
     margin-top: 8px;
     margin-bottom: -8px;
   }
@@ -516,7 +518,7 @@
     margin-top: -15px;
   }
   .brk-para {
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 8px;
   }
   .flexibility {
@@ -528,7 +530,6 @@
     font-size: 13px;
   }
   .gym-content {
-    align-items: center;
     margin-left: 15px;
   }
 
@@ -540,7 +541,7 @@
   }
 
   .gym-text h1 {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .gym-text p {
@@ -548,8 +549,8 @@
   }
 
   .join-us {
-    width: 100%;
     display: flex;
+    margin-right: 30px;
   }
 
   .join-btn {
@@ -628,7 +629,7 @@
   }
 
   .active-zone-description p {
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 10px;
     margin-top: 20px;
     padding: 5px;
@@ -675,7 +676,7 @@
   }
 
   .date {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .Member-Name {
@@ -685,7 +686,7 @@
   }
 
   .brk-para {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   #brkid {
@@ -711,11 +712,11 @@
   }
 
   .gym-text h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
 
   .gym-text p {
-    font-size: 18px;
+    font-size: 15px;
     align-items: center;
     margin-top: 20px;
     margin-left: 20px;
@@ -762,7 +763,7 @@
   }
 
   .gym-text p {
-    font-size: 19px;
+    font-size: 16px;
     align-items: center;
     margin-top: 20px;
     margin-left: 20px;
